@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Juros Simples</title>
+<link rel="shortcut icon" href="projeto\images\favicon.ico">
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link href="style\style.css" rel="stylesheet" type="text/css" />
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+	rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<section class="section" id="home">
+			<img id="background" src="style/background.svg" alt="background">
+			<div class="row align-items-center text-center">
+				<div class="col-md-12 col-lg-12 mb-5 mb-md-0">
+				<br>
+				<br>
+					<h1>Seja Bem-Vindo!</h1>
+					<br>
+					<p>Meu nome é Maria Luiza, RA: 1290482013029</p>
+				</div>
+				<div class="col-md-12 col-lg-12 mb-5 mb-md-0">
+					<img class="img-fluid" src="style\fundo1.png" alt="">
+				</div>
+			</div>
+		</section>
+	</div>
+	<section class="section" id="section3">
+	<br>
+		<h1>Vamos calcular os juros da sua compra?</h1>
+		<br><br>
+		<div class="form">
+			<form method = "get" action="juros-simples.html">
+				<div id="input-content">
+					<div class="input-container">
+						<label for="VP">Valor Presente</label> <input type="number"
+							name="VP" placeholder="Insira o valor do produto em R$">
+					</div>
+
+					<div class="input-container">
+						<label for="Juros">Juros</label> <input type="number" 
+							name="Juros" placeholder="Insira os juros a serem pagos">
+					</div>
+
+					<div class="input-container">
+						<label for="Meses">Prazo de Pagamento (em meses)</label> <input type="number" 
+							name="Meses" placeholder="Insira o período de pagamento">
+					</div>
+				
+					<div class="text-center">
+						<button type="submit" onclick="location.href = 'juros-simples.html';" class="btn btn-success btn-lg">Calcular</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>

@@ -1,0 +1,106 @@
+*{
+	top: 0px;
+	left: 2px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+
+}
+#background {
+	position: absolute;
+    width: 95%;
+    padding-top: 130px;
+}
+#section3 h1, h2{
+	text-align: center;
+}
+
+#section3 {
+	padding: 40px 15px;
+	margin-top: 80px;
+	background:url('backForm.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+
+#section3 div.form{
+	position: relative;
+	display: flex;
+	width: 100%;
+  	justify-content: center;
+  	margin-top: auto;
+}
+
+#section3 div.form form{
+
+	margin-top: 20px;
+	background-color: #FFFFFF;
+  	border-radius: 10px;
+	box-shadow: #0000001c 0 0 30px;
+	margin-bottom: 50px;
+	padding: 50px;
+	width: 100%;
+	max-width: 620px;
+	text-align: left;
+}
+
+#section3 div.form form  #input-content{
+	display: grid;
+  	grid-template-columns: repeat(minmax(200px, 1fr));
+}
+
+
+#section3 div.form form .input-container textarea{
+  	resize: none;
+  	font-family: inherit;
+}
+#section3 div.form form .input-container input{
+  	width: 100%;
+  	font-size: 1.2rem;
+  	color: #777777;
+  	padding: 10px 0;
+  	margin-bottom: 30px;
+  	text-align: left;
+  	outline: none;
+  	border: none;
+  	border-bottom: #777777 1px solid;
+}
+
+#section3 div.form form .input-container input:focus{
+  	border-bottom: #222222 1px solid;
+}
+
+btn-success {
+	color: #fff;
+	background:linear-gradient(to right, #856DD7 10%, #FF8FE2 180%);
+	border-color: #856DD7;
+	width: 140px;
+	height: 48px;
+	font-size: 15px;
+	font-family: Poppins-Medium, Poppins;
+	text-transform: capitalize;
+	margin: 0 20px;
+	margin-top: 15px;
+    margin-bottom: 20px;	
+}
+
+.btn-success:hover{
+	color: #856DD7 !important;
+	background: #fff !important;
+	border-color: #856DD7 !important;
+}
+
+.btn-success:focus,
+.btn-success.focus {
+	box-shadow: 0 0 0 0rem rgba(248, 249, 250, 0.5);
+	border-color: #856DD7;
+	background:linear-gradient(to right, #856DD7 10%, #FF8FE2 180%);
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0 rgba(248, 249, 250, 0.5);
+	border-color: #856DD7;
+}
