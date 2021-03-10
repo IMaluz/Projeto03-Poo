@@ -71,10 +71,10 @@
   	border-bottom: #222222 1px solid;
 }
 
-btn-success {
+.btn-success {
 	color: #fff;
-	background:linear-gradient(to right, #856DD7 10%, #FF8FE2 180%);
-	border-color: #856DD7;
+	background:linear-gradient(to right, #856DD7 10%, #FF8FE2 180%) !important;
+	border-color: #856DD7 !important;
 	width: 140px;
 	height: 48px;
 	font-size: 15px;
